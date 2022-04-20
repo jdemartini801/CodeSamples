@@ -1,3 +1,11 @@
+/*
+This is the InventoryController script for a small project I am working on. The player can "forage" and pick up nearby objects.
+This handles all potential inventory interactions including: right clicking an inventory slot to pick up half of a stack or to drop single items,
+swapping items when you left click an inventory slot, stacking objects together, etc.
+
+Plants are handled separately since the player has a separate "plant inventory" that has completely different interactions.
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
